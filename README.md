@@ -1,6 +1,6 @@
 # aave-v3-base
 
-A [nuthatch](https://github.com/nightswatchhq/nuthatch) nest: **Aave V3 on Base**.
+A [nuthatch](https://github.com/nuthatch-org/nuthatch) nest: **Aave V3 on Base**.
 
 As `aave-v3`, re-pointed at Base.
 
@@ -25,7 +25,7 @@ Indexed blocks **50,015,570 to 50,314,928** and sealed **122,749 events**. Every
 ## Run it
 
 ```sh
-nuthatch init --from https://github.com/nightswatchhq/aave-v3-base
+nuthatch init --from https://github.com/nuthatch-org/aave-v3-base
 cd aave-v3-base
 nuthatch dev --dir . --backfill 50000 --seal-direct
 nuthatch sql --dir . "SELECT count(*) FROM \"c0__borrow\""
